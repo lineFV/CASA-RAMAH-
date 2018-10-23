@@ -101,6 +101,7 @@ input:checked ~ ul {
   color: #fff;
   border-radius: 20px;
   text-align: center;
+  right:25vw;
 }
 .traseira {
   position: absolute;
@@ -112,6 +113,11 @@ input:checked ~ ul {
   transform: rotateY(180deg);
   border-radius: 20px;
   text-align: center;
+  right:3vw;
+}
+.icon{
+  display: flex;
+  flex-direction: row;
 }
 .icones{
   width: 35px;
@@ -124,14 +130,14 @@ input:checked ~ ul {
   margin: 5px;
   padding: 10px;
   border-radius:50%;
-  
 }
 
 footer{
   display: flex;
+  justify-content: space-around;
   background-color: black;
   flex-wrap: wrap;
-  height: 12vh;
+  height: 8vh;
 }
 footer img{
   width: 50px;
@@ -157,31 +163,21 @@ font-size:10pt;
 }
 .icones img:hover{
   z-index: 1;
+  cursor: pointer;
 }
-.facev{
+.youtubev{
   /* visibility: hidden; */
   position: relative;
-  bottom:22px;
-  z-index: 1;
-}
-.instav{
-  /* visibility: hidden; */
-  position: relative;
-  bottom:22px;
-}
-.twitv{
-  /* visibility: hidden; */
-  position: relative;
-  bottom:22px;
+  bottom:-12px;
 }
 
 .icones img{
   width: 22px;
   height: 22px;
 }
-.turno {
+.turno{
   position: relative;
-  top: 75vw;
+  top: 45vh;
   left: 66%;
   transform: translate(-50%, -50%);
   list-style: none;
@@ -272,25 +268,71 @@ input:checked ~ label .hamburguer:after {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 97vw;
- overflow-x: hidden;
-  height: 119vh;
-}
-.imgQuadro{
   width: 100vw;
-  height: 68vw;
-  opacity: 0.55;
-  filter: alpha(opacity=55);
+ overflow-x: hidden;
+  height: 92vh;
+}
+.escolas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+ overflow-x: hidden;
+  height: 39vh;
+}
+.Aulas{
   position: relative;
-  margin-top: 3vh;
-  border-radius: 5px;
-  left: 1%;
+  width: 1200px;
+  /* height: 300px; */
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 45vh;
+  left: 66%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  font-size: 25px;
+  opacity: 8;
+  transition: .25s .1s cubic-bezier(0, 1.07, 0, 1.02);
+  z-index: 1;
+}
+.imgJeffeRod{
+    background-image: url("img/live/JeffeRod.JPG");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .imgVitor{
+    background-image: url("img/escola/vitorPregando.jpeg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 .mis{
   width: 37vw;
 }
-
+.textoJeff{
+  width: 82vw;
+  height: 42vh;
+  font-size: 1.80em;
+  color: #fff;
+  font-weight: 300;
+}
 .textoTurnos{
+  display: flex;
+  justify-content: flex-start;
   width: 75vw;
   height: 10vw;
   color: black;
@@ -300,10 +342,13 @@ input:checked ~ label .hamburguer:after {
   margin: 0;
   padding: 0;
   top: 1vh;
-  right: 25vw;
+  right: -5vw;
   border-radius: 1vw;
 }
 .textoHorarios{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   width: 75vw;
   height: 10vw;
   color: black;
@@ -314,7 +359,7 @@ input:checked ~ label .hamburguer:after {
   margin-top: -4px;
   padding: 0;
   top: 1px;
-  right: 14vw;
+  right: -4vw;
   border-radius: 1vw;
 }
 .textoHorarios:hover{
@@ -340,7 +385,8 @@ input:checked ~ label .hamburguer:after {
     z-index: 3;
     top: 1px;
   }
-.paralax{
+
+.turnosparalax{
   background-image: url("img/p-turnos.jpeg");
   background-position: center top;
   background-repeat: no-repeat;
@@ -348,8 +394,17 @@ input:checked ~ label .hamburguer:after {
   background-attachment: fixed;
   width: 100vw;
   height: 90vh;
-
 }
+.escolaparalax{
+  background-image: url("img/escola/principal.JPG");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 90vh;
+}
+
   .logo{
     margin: 1;
     height: 6vh;
@@ -426,3 +481,4 @@ input:checked ~ label .hamburguer:after {
   100%{
   color: white;
  }
+}
