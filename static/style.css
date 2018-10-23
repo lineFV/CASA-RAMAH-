@@ -396,7 +396,7 @@ input:checked ~ label .hamburguer:after {
   height: 90vh;
 }
 .escolaparalax{
-  background-image: url("img/escola/principal.JPG");
+  background-image: url("img/escola/Principal.JPG");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
