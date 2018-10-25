@@ -1,0 +1,25 @@
+@media (min-width:500px){
+    .lista {
+        margin-left: 255px;
+    }
+    .frente{
+        width: 60vw;
+        right:49vw;
+    }
+    .traseira{
+        width: 60vw;
+        left: 49vw;
+    }
+    .texto{
+        height: 50vh;
+    }
+    .violao{
+        height:47vw;
+    }
+    .textoTurno{
+        height: 34vh;
+    }
+    .textoEscola{
+        height: 34vh;
+    }
+}

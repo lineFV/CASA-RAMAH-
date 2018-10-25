@@ -76,7 +76,7 @@ input:checked ~ ul {
   position: relative;
   width: 180px;
   height: 240px;
-  margin-left:100px;  
+  margin-left: -23px;
 }
 /*-------------------*/
 /*-------------------*/
@@ -134,10 +134,13 @@ input:checked ~ ul {
 
 footer{
   display: flex;
+  width: 100vw;
   justify-content: space-around;
   background-color: black;
   flex-wrap: wrap;
   height: 8vh;
+  position: fixed;
+  bottom:1px;
 }
 footer img{
   width: 50px;
@@ -280,14 +283,13 @@ input:checked ~ label .hamburguer:after {
  overflow-x: hidden;
   height: 39vh;
 }
-.Aulas{
+.Aula{
   position: relative;
   width: 1200px;
   /* height: 300px; */
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 45vh;
   left: 66%;
   transform: translate(-50%, -50%);
   list-style: none;
@@ -323,10 +325,17 @@ input:checked ~ label .hamburguer:after {
 .mis{
   width: 37vw;
 }
-.textoJeff{
+.textoTurno{
   width: 82vw;
-  height: 42vh;
-  font-size: 1.80em;
+  height: 5vh;
+  font-size: 1.35em;
+  color: #fff;
+  font-weight: 300;
+}
+.textoEscola{
+  width: 82vw;
+  height: 5vh;
+  font-size: 1.35em;
   color: #fff;
   font-weight: 300;
 }
@@ -420,18 +429,18 @@ input:checked ~ label .hamburguer:after {
     margin:4vh;
     border-radius:10px;
   }
-  .violao{
-      widows: 50vw;;
-      height: 63vw;
-      opacity:0.55;
-            filter: alpha(opacity=55);
-      position:relative;
-      margin-top:3vh;
-      border-radius:30px;
-      left:20%;
-  }
+  .violao {
+    widows: 50vw;
+    height: 63vw;
+    opacity: 0.55;
+    filter: alpha(opacity=55);
+    position: relative;
+    margin-top: 3vh;
+    border-radius: 30px;
+    left: 26%;
+}
   .texto{
-    width:50vw;
+    width:60vw;
     height:63vw;
     color:white;
     position:relative;
@@ -440,7 +449,7 @@ input:checked ~ label .hamburguer:after {
     margin:0;
     padding:0;
     top:4vh;
-    right:-3vw;
+    right:0vw;
     border-radius:1vw;
   }
   h1{
@@ -454,8 +463,10 @@ input:checked ~ label .hamburguer:after {
         display:flex;
         overflow-x: hidden;
   }
-  .mis{
-    width: 37vw;
+  .mis {
+    width: 50vw;
+    position: relative;
+    left: 8vw;
   }
   
   .principal{

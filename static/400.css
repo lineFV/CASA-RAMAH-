@@ -1,0 +1,24 @@
+@media (min-width: 400px) {
+    body {
+    }
+    .violao{
+        height: 50vw;
+        left:20%;
+    }
+    .texto{
+        width: 50vw;
+    }
+    .lista {
+        margin-left: 85px;
+    }
+    .textoTurno{
+        height: 40vh;
+        position: relative;
+        right: 4vw;
+    }
+    .textoEscola{
+        height: 40vh;
+        position: relative;
+        right: 4vw;
+    }
+}

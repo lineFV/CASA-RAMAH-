@@ -1,0 +1,12 @@
+@media(min-width:600px){
+    .imgVitor{
+        background-image: url("img/escola/livros.JPG");
+    }
+    .textoEscola{
+        bottom: 62vh;
+        color: black;
+        height: 10vw;
+        width: 29vw;
+        right: 66vw;
+        }
+}
