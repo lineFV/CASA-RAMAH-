@@ -13,6 +13,10 @@ app.get('/Escolas',(req,res) =>{
 app.get('/Turnos',(req,res) =>{
     res.render('Turnos');
 });
+app.get('/Lives',(req,res) =>{
+    res.render('Lives');
+});
+
 app . listen ( process . env . PORT  ||  4000 , () => {
     console.log ("Servidor iniciado");
 });
